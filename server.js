@@ -11,7 +11,7 @@ const app = express();
 const cache = new NodeCache({ stdTTL: 5 });
 app.use(cors());
 
-const HISTORY_API = process.env.HISTORY || "https://lichs-0ez3.onrender.com/api/taixiu";
+const HISTORY_API = process.env.HISTORY || "https://lichsssss.onrender.com/api/taixiu";
 
 // ==========================
 // Chuẩn hóa dữ liệu API (ép kiểu số an toàn)
